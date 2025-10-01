@@ -5,9 +5,8 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class PaisRequest {
+public class CiudadRequest {
 
-    private String nombre;
-    private Long numeroHabitantes;
-
+    public String nombre;
+    public Long paisId;
 }
